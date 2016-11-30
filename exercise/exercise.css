@@ -473,12 +473,39 @@ body {
     float: left;
 }
 
-.dashed {
+.dashed-top {
     position: absolute;
     top: 5px;
     left: 5px;
     right: 5px;
+    height: 1px;
+    border: 1px dashed #969893;
+}
+
+.dashed-bottom {
+    position: absolute;
     bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 1px;
+    border: 1px dashed #969893;
+}
+
+.dashed-left {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    width: 1px;
+    border: 1px dashed #969893;
+}
+
+.dashed-right {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    width: 1px;
     border: 1px dashed #969893;
 }
 
