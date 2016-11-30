@@ -1,0 +1,563 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #DCDBDA;
+}
+
+.navigator {
+    width: 1200px;
+    height: 112px;
+    margin: 13px auto 0 auto;
+    background-color: #7C7F79;
+    position: relative;
+}
+
+.logo {
+    width: 292px;
+    height: 79px;
+    background-color: #245554;
+    position: absolute;
+    top: 18px;
+    left: -25px;
+}
+
+.logo-inner {
+    position: absolute;
+    top: 25px;
+    left: 55px;
+}
+
+.logo-bg {
+    width: 28px;
+    height: 28px;
+    background-image: url("exercise1.png");
+    background-position: -380px -56px;
+    float: left;
+}
+
+.logo-text {
+    float: left;
+    margin-left: 3px;
+}
+
+.logo-text1 {
+    display: block;
+    font-size: 18px;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+.logo-text2 {
+    display: block;
+    font-size: 8px;
+    color: RGBA(255, 255, 255, 0.8);
+}
+
+.navigator-inner {
+    position: absolute;
+    width: auto;
+    height: 46px;
+    top: 36px;
+    left: 757px;
+}
+
+.navigator-inner > a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 12px;
+    line-height: 46px;
+    float: left;
+}
+
+.line1 {
+    width: 1px;
+    height: 46px;
+    background-color: #686A66;
+    float: left;
+}
+
+.line2 {
+    width: 1px;
+    height: 46px;
+    background-color: #8D8F8B;
+    float: left;
+}
+
+.wed-content {
+    position: relative;
+    width: 1200px;
+    height: 1937px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.wed-content-left {
+    position: relative;
+    top: 33px;
+    left: 30px;
+    width: 750px;
+    height: auto;
+}
+
+.title {
+    position: relative;
+}
+
+.title .title1 {
+    display: block;
+    font-size: 30px;
+    color: #000000;
+}
+
+.title .title2 {
+    display: block;
+    font-size: 20px;
+    color: #5B5920;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.title .title3, .title .title4 {
+    display: block;
+    font-size: 15px;
+    line-height: 23px;
+    color: #222322;
+    margin-top: 15px;
+}
+
+.title .title3 {
+    display: block;
+    width: 365px;
+}
+
+.title3 mark {
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+
+.title4 mark {
+    text-decoration: underline;
+    color: #5B5920;
+    background-color: #FFFFFF;
+}
+
+.title .title-bg {
+    position: absolute;
+    width: 320px;
+    height: 166px;
+    top: 96px;
+    right: 50px;
+}
+
+.title-bg img {
+    width: 320px;
+    height: 166px;
+}
+
+.search-container-left {
+    position: relative;
+    margin-top: 15px;
+}
+
+.search-container-left .search-input {
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+    background-color: #F9F9F9;
+}
+
+.search-container-left input {
+    width: 540px;
+    height: 48px;
+    margin-left: 50px;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 30px;
+}
+
+.search-container-left img {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.search-container-left button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 111px;
+    height: 50px;
+    background-color: #9C2A44;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.hr {
+    width: auto;
+    border-top: 1px dashed #CCCCCC;
+    margin: 23px 0 18px 0;
+}
+
+article.order:after {
+    clear: both;
+    content: " ";
+    display: block;
+}
+
+article.order .order-container {
+    position: relative;
+    width: 375px;
+    float: left;
+}
+
+article.order h3 {
+    font-size: 18px;
+}
+
+article.order .order-bg {
+    width: 314px;
+    height: 126px;
+    border: 1px solid #CBCBCB;
+    background-image: url("exercise1.png");
+}
+
+article.order .order-bg:hover + .shade{
+    visibility: visible;
+}
+
+.shade{
+    position: absolute;
+    top: 57px;
+    width: 314px;
+    height: 126px;
+    border: 1px solid #CBCBCB;
+    background-color: RGBA(0,0,0,0.5);
+    visibility: hidden;
+}
+
+.order-bg1{
+    background-position: -381px -670px;
+}
+
+.order-bg2{
+    background-position: -765px -670px;
+}
+
+.order-bg3{
+    background-position: -381px -941px;
+}
+
+.order-bg4{
+    background-position: -765px -941px;
+}
+
+.order-bg5{
+    background-position: -381px -1261px;
+}
+
+.order-bg6{
+    background-position: -765px -1261px;
+}
+
+.order-bg7{
+    background-position: -381px -1533px;
+}
+
+.order-bg8{
+    background-position: -765px -1533px;
+}
+
+.order-bg9{
+    background-position: -381px -1805px;
+}
+
+article.order section {
+    width: 314px;
+    font-size: 14px;
+}
+
+article.order section mark {
+    background-color: #FFFFFF;
+    text-decoration: underline;
+}
+
+article.FAQ-text mark {
+    background-color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.wed-content-right {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    bottom: 14px;
+    width: 400px;
+    height: auto;
+    background-color: #DEDFDC;
+}
+
+.search-container-right {
+    margin: 13px 0 0 13px;
+}
+
+.search-container-right .search-input {
+    width: 235px;
+    height: 27px;
+    border: 1px solid #CCCCCC;
+}
+
+.search-container-right .searc-container button {
+    width: 108px;
+    height: 27px;
+    margin-left: 13px;
+    border: none;
+    background-color: #7C7F79;
+}
+
+.catalog {
+    width: auto;
+    height: auto;
+    margin: 30px 0 0 13px;
+
+}
+
+.catalog-inner {
+    width: auto;
+    height: 16px;
+    margin-top: 18px;
+}
+
+.catalog-inner > div:first-child {
+    width: 7px;
+    height: 7px;
+    margin-top: 4px;
+    border: 1px solid #B2A497;
+    background-color: #EDE8E4;
+    float: left;
+}
+
+.catalog-inner > .line3 {
+    width: 1px;
+    height: 100%;
+    margin: 0 5px;
+    background-color: #B2A497;
+    float: left;
+}
+
+.catalog-inner > .FREE-bg {
+    background-image: url("exercise1_r3_c3.png");
+    width: 42px;
+    height: 19px;
+    float: left;
+}
+
+.catalog-title {
+    width: auto;
+    height: 18px;
+    margin-top: 18px;
+}
+
+.catalog-title > label {
+    font-size: 16px;
+    color: #5B5954;
+}
+
+.catalog-inner > a {
+    display: block;
+    margin: 0 8px;
+    font-size: 14px;
+    color: #5B5954;
+    float: left;
+}
+
+.catalog-text1 {
+    margin: 32px 0 0 13px;
+    font-size: 16px;
+    color: #5B5954;
+}
+
+.catalog-text2 {
+    width: 320px;
+    height: auto;
+    margin: 21px 0 0 13px;
+    font-size: 14px;
+}
+
+.catalog-text2 mark{
+    font-weight: bold;
+    background-color: #DEDFDC;
+}
+
+.bank-bg{
+    margin: 20px 0 0 13px;
+}
+
+.wifi {
+    height: 20px;
+    margin: 16px 0 0 13px;
+}
+
+.wifi > div {
+    width: 17px;
+    height: 17px;
+    background-image: url("exercise_r5_c3.png");
+    float: left;
+}
+
+.wifi > a {
+    display: block;
+    margin-left: 10px;
+    color: #5B5954;
+    float: left;
+}
+
+.Get-it {
+    width: 290px;
+    height: 16px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.Get-it a, .Get-it label {
+    display: block;
+    float: left;
+}
+
+.Get-it div {
+    width: 1px;
+    height: 16px;
+    background-color: #DEDFDC;
+    margin: 0 8px;
+    float: left;
+}
+
+.advertisment-bg {
+    position: absolute;
+    right: 12px;
+    top: 13px;
+    width: 80px;
+    height: 86px;
+}
+
+.advertisment-bg > img {
+    width: 80px;
+    height: 86px;
+}
+
+.footer {
+    position: relative;
+    width: 1200px;
+    height: 66px;
+    margin: 0 auto;
+    background-color: #7C7F79;
+}
+
+.content {
+    position: absolute;
+    width: auto;
+    height: 25px;
+    top: 20px;
+    left: 30px;
+}
+
+.footer-text {
+    height: 25px;
+    float: left;
+}
+
+.footer-text1 {
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    float: left;
+}
+
+.footer-text2 {
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ACAF9D;
+    float: left;
+}
+
+.footer-text div {
+    width: 1px;
+    height: 25px;
+    margin: 0 6px;
+    background-color: #ACAF9D;
+    float: left;
+}
+
+.footer-inner {
+    width: auto;
+    height: 25px;
+    margin-left: 300px;
+    float: left;
+}
+
+.footer-inner > a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 12px;
+    line-height: 25px;
+    float: left;
+}
+
+.line5 {
+    width: 1px;
+    height: 25px;
+    background-color: #686A66;
+    float: left;
+}
+
+.dashed-top {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 1px;
+    border: 1px dashed #969893;
+}
+
+.dashed-bottom {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 1px;
+    border: 1px dashed #969893;
+}
+
+.dashed-left {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    width: 1px;
+    border: 1px dashed #969893;
+}
+
+.dashed-right {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    width: 1px;
+    border: 1px dashed #969893;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
